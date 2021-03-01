@@ -6,6 +6,8 @@ public class Movement : MonoBehaviour
 {
 
     public SwipeControl managers;
+    [Range(1,10)]
+    public float movementSpeed;
     public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,6 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = managers.result;
+        rb.velocity = managers.result*movementSpeed;
     }
 }

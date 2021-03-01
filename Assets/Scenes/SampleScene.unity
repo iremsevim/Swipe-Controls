@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   managers: {fileID: 656857476}
+  movementSpeed: 1.5
   rb: {fileID: 656857475}
 --- !u!65 &656857478
 BoxCollider:

@@ -23,7 +23,7 @@ public class SwipeControl : MonoBehaviour
     {
         minDistance = Screen.height * 20 / 100; //dragDistance is 15% height of the screen
    
-        maxDis = minDistance * 0.5f;
+        maxDis = minDistance * 0.1f;
 
     }
 
